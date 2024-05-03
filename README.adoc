@@ -6,6 +6,13 @@
 toc::[]
 
 == Introduction
+The Message module is a component of the Jima framework that is responsible for sending emails and notifications. This module empowers developers to consistently and reliably deliver messages and alerts related to the data within the system to users.
+
+This capability is particularly valuable in scenarios where timely and trustworthy information delivery to stakeholders is crucial, such as financial transactions, legal agreements, and sensitive record-keeping. By using the Message module, developers can ensure that the messages and notifications sent to the intended recipients are effectively and reliably delivered.
+
+This feature is highly beneficial in a microservices architecture, as it enables reliable communication between the services. The Message module plays a critical role in ensuring the timely and trustworthy delivery of information across the microservices architecture, contributing to increased data security and reliability within the system.
+
+Overall, the Message module is pivotal in guaranteeing the prompt and reliable transmission of information throughout the microservices architecture, enhancing the overall data security and trustworthiness of the system.
 
 == Prerequisites
 
