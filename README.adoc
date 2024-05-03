@@ -1,0 +1,54 @@
+= Jima Message
+:toc: macro
+:toc-title:
+:doctype: book
+
+toc::[]
+
+== Introduction
+
+== Prerequisites
+
+Before you begin, ensure you have the following software and tools installed:
+
+* Java
+* Maven
+
+== Getting Started
+
+Follow these steps to get started with the Jima Lock project:
+
+1. Clone the repository.
+2. Install all the software and tools listed in the Prerequisites section.
+3. Install the project with the `mvn install` command.
+
+You can also add the following dependency to the `pom.xml` file of your project:
+
+[source,xml]
+----
+<dependencies>
+    <dependency>
+        <groupId>ir.msob.jima.message</groupId>
+        <artifactId>message-starter-*</artifactId>
+        <version>1.1.1</version>
+    </dependency>
+</dependencies>
+----
+
+== Running the Tests
+
+To run the tests, use the `mvn test` command.
+
+== Contributing
+
+We welcome contributions to Jima!
+Please fork the repository, make your changes, and submit a pull request.
+
+== License
+
+Jima is licensed under the Apache License 2.0. Please see the `LICENSE` file for more details.
+
+== Built With
+
+* [Java](https://www.java.com) - The main programming language used.
+* [Maven](https://maven.apache.org/) - Dependency Management.
