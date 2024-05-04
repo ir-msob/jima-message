@@ -1,4 +1,4 @@
-package ir.msob.jima.message.notification.client.event;
+package ir.msob.jima.message.event.client;
 
 import ir.msob.jima.core.commons.client.BaseAsyncClient;
 import ir.msob.jima.core.commons.model.channel.ChannelMessage;

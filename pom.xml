@@ -23,6 +23,7 @@
         <module>commons</module>
         <module>email</module>
         <module>notification</module>
+        <module>event</module>
         <module>starter</module>
         <module>reports</module>
     </modules>

@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>ir.msob.jima.message.notification</groupId>
-        <artifactId>message-notification</artifactId>
+        <groupId>ir.msob.jima.message.event</groupId>
+        <artifactId>message-event</artifactId>
         <version>1.1.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>message-notification-client</artifactId>
+    <artifactId>message-event-client</artifactId>
     <name>client</name>
     <description>client</description>
     <dependencies>
