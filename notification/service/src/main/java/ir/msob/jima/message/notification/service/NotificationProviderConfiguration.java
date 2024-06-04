@@ -15,7 +15,7 @@ public class NotificationProviderConfiguration {
     @Bean
     public ThreadPoolTaskScheduler threadPoolTaskScheduler() {
         ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
-        threadPoolTaskScheduler.setPoolSize(jimaProperties.getMessage().getNotification().threadPoolSize);
+        threadPoolTaskScheduler.setPoolSize(jimaProperties.getMessage().getNotification().getThreadPoolSize());
         threadPoolTaskScheduler.setThreadNamePrefix(jimaProperties.getMessage().getNotification().getThreadNamePrefix());
         return threadPoolTaskScheduler;
     }

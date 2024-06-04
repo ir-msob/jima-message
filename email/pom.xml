@@ -5,12 +5,12 @@
     <parent>
         <groupId>ir.msob.jima.message</groupId>
         <artifactId>message-parent</artifactId>
-        <version>1.1.1</version>
+        <version>${jima-message.version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>ir.msob.jima.message.email</groupId>
     <artifactId>message-email</artifactId>
-    <version>1.1.1</version>
+    <version>${jima-message.version}</version>
     <name>email</name>
     <description>email</description>
     <packaging>pom</packaging>

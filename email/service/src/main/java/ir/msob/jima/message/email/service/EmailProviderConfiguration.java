@@ -15,7 +15,7 @@ public class EmailProviderConfiguration {
     @Bean
     public ThreadPoolTaskScheduler threadPoolTaskScheduler() {
         ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
-        threadPoolTaskScheduler.setPoolSize(jimaProperties.getMessage().getEmail().threadPoolSize);
+        threadPoolTaskScheduler.setPoolSize(jimaProperties.getMessage().getEmail().getThreadPoolSize());
         threadPoolTaskScheduler.setThreadNamePrefix(jimaProperties.getMessage().getEmail().getThreadNamePrefix());
         return threadPoolTaskScheduler;
     }

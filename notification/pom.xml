@@ -5,12 +5,12 @@
     <parent>
         <groupId>ir.msob.jima.message</groupId>
         <artifactId>message-parent</artifactId>
-        <version>1.1.1</version>
+        <version>${jima-message.version}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>ir.msob.jima.message.notification</groupId>
     <artifactId>message-notification</artifactId>
-    <version>1.1.1</version>
+    <version>${jima-message.version}</version>
     <name>notification</name>
     <description>notification</description>
     <packaging>pom</packaging>
