@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ir.msob.jima.parent</groupId>
+    <artifactId>jima-parent</artifactId>
+    <version>1.2.0</version>
+    <relativePath></relativePath>
+  </parent>
+  <groupId>ir.msob.jima.message</groupId>
+  <artifactId>message-parent</artifactId>
+  <version>${jima-message.version}</version>
+  <packaging>pom</packaging>
+  <name>message-parent</name>
+  <description>message-parent</description>
+  <modules>
+    <module>commons</module>
+    <module>email</module>
+    <module>notification</module>
+    <module>event</module>
+    <module>starter</module>
+    <module>reports</module>
+  </modules>
+  <properties>
+    <jima-crud.version>1.2.0</jima-crud.version>
+    <jima-message.version>1.2.0</jima-message.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
         <groupId>ir.msob.jima.parent</groupId>
-        <artifactId>jima-parent</artifactId>
-        <version>1.2.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-    <groupId>ir.msob.jima.message</groupId>
-    <artifactId>message-parent</artifactId>
-    <version>${jima-message.version}</version>
-    <name>message-parent</name>
-    <description>message-parent</description>
-    <packaging>pom</packaging>
-    <properties>
-        <!-- Jima -->
-        <jima-crud.version>1.2.1</jima-crud.version>
-        <jima-message.version>1.2.1</jima-message.version>
-    </properties>
-    <modules>
-        <module>commons</module>
-        <module>email</module>
-        <module>notification</module>
-        <module>event</module>
-        <module>starter</module>
-        <module>reports</module>
-    </modules>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>ir.msob.jima.parent</groupId>
-                <artifactId>jima-parent-bom</artifactId>
-                <version>${jima-commons.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+        <artifactId>jima-parent-bom</artifactId>
+        <version>${jima-commons.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
